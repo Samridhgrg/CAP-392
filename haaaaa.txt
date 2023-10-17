@@ -1,0 +1,85 @@
+-- Online SQL Editor to Run SQL Online.
+-- Use the editor to create new tables, insert data and all other SQL operations.
+  
+CREATE TABLE INVENTORY (
+    ProductID int,
+    ProductName varchar(255),
+    Price int,
+    Stock varchar(255)
+);
+INSERT INTO INVENTORY(ProductID,ProductName,Price,Stock)
+VALUES ("101","Shampoo","100","in");
+INSERT INTO INVENTORY(ProductID,ProductName,Price,Stock)
+VALUES ("231","Cleaner","50","in");
+INSERT INTO INVENTORY(ProductID,ProductName,Price,Stock)
+VALUES ("654","Washer","78","out");
+INSERT INTO INVENTORY(ProductID,ProductName,Price,Stock)
+VALUES ("984","Soap","150","in");
+INSERT INTO INVENTORY(ProductID,ProductName,Price,Stock)
+VALUES ("159","Powder","98","in");
+INSERT INTO INVENTORY(ProductID,ProductName,Price,Stock)
+VALUES ("954","Shirt","800","in");
+INSERT INTO INVENTORY(ProductID,ProductName,Price,Stock)
+VALUES ("587","Tea","86","out");
+INSERT INTO INVENTORY(ProductID,ProductName,Price,Stock)
+VALUES ("954","Coffee","200","in");
+INSERT INTO INVENTORY(ProductID,ProductName,Price,Stock)
+VALUES ("755","Deo","350","out");
+INSERT INTO INVENTORY(ProductID,ProductName,Price,Stock)
+VALUES ("567","Perfume","400","in");
+
+
+
+
+
+-- Online SQL Editor to Run SQL Online.
+-- Use the editor to create new tables, insert data and all other SQL operations.
+  
+CREATE TABLE EmployeeE (
+    PersonID int,
+    Name varchar(255),
+    City varchar(255),
+    Age varchar(255)
+);
+INSERT INTO Employee(PersonID,Name,City,Age)
+VALUES ("101","AMAN","UP","50");
+INSERT INTO Employee(PersonID,Name,City,Age)
+VALUES ("231","ARYAN","HARYANA","23");
+INSERT INTO Employee(PersonID,Name,City,Age)
+VALUES ("654","VAIBHAV","DEHRADUN","42");
+INSERT INTO Employee(PersonID,Name,City,Age)
+VALUES ("984","AKASH","UP","32");
+INSERT INTO Employee(PersonID,Name,City,Age)
+VALUES ("159","ANUBHAV","KERALA","48");
+INSERT INTO Employee(PersonID,Name,City,Age)
+VALUES ("954","SHIVAM","DEHLI","22");
+INSERT INTO Employee(PersonID,Name,City,Age)
+VALUES ("587","SHIVANSH","DEHLI","29");
+INSERT INTO Employee(PersonID,Name,City,Age)
+VALUES ("954","YASHU","HARYANA","22");
+INSERT INTO Employee(PersonID,Name,City,Age)
+VALUES ("755","MANDAL","GOA","54");
+INSERT INTO Employee(PersonID,Name,City,Age)
+VALUES ("567","KAILASH","DEHLI","32");
+
+
+
+-- Online SQL Editor to Run SQL Online.
+-- Use the editor to create new tables, insert data and all other SQL operations.
+  
+CREATE TABLE Customerssss(
+    PersonID int,
+    Name varchar(255),
+    City varchar(255),
+    Age varchar(255)
+);
+INSERT INTO Customerssss(PersonID,Name,City,Age)
+VALUES ("101","AMAN","UP","50");
+INSERT INTO Customerssss(PersonID,Name,City,Age)
+VALUES ("231","ARYAN","HARYANA","23");
+INSERT INTO Customerssss(PersonID,Name,City,Age)
+VALUES ("654","VAIBHAV","DEHRADUN","42");
+INSERT INTO Customerssss(PersonID,Name,City,Age)
+VALUES ("984","AKASH","UP","32");
+INSERT INTO Customerssss(PersonID,Name,City,Age)
+VALUES ("159","ANUBHAV","KERALA","48");
